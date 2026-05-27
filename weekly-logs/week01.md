@@ -9,6 +9,7 @@
 
 ## 気づき・学び
 - 型の名前はいらない
+- split()という関数は()の中身で分ける
 - a**b = a^b
 - a%b = a mod b
 - a/b -> float
@@ -25,8 +26,8 @@
 - 配列のidxと値を同時に取得->enumerate()
 - enumerate(配列,start = a)でidx=aから始める
 - 2つの配列を合成->zip()
-- split()という関数は()の中身で分ける
-- else if は elifなのと if() : このよう : が後ろにいる
+- if() : このよう : が後ろにいる({}の代わり)(()はなくてもいい)
+- else if は elif
 - exit(0)を最後に書いたほうがCE出ずに済む
 
 ## Python独自の省略方法
