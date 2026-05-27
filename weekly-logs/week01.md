@@ -1,15 +1,20 @@
 # Week 01 — Python基礎
 
 ## やったこと
-Atcoder 212~216のA問題（5問分解いた）
+- Atcoder 212~216のA問題（5問分解いた）
 
 ## 詰まったこと・解決方法
-a,b = map(int,input().split())のようにやるとatcoderの入力を取ることができる
-
+- a,b = map(int,input().split())のようにやるとatcoderの入力を取ることができる
+- a**b = a^b
+- a%b = a mod b
+- a/b -> float
+- a//b -> int
 
 ## 気づき・学び
-else if は elifなのと if() : このよう : が後ろにいる
-
+- 型の名前はいらない
+- split()という関数は()の中身で分ける
+- else if は elifなのと if() : このよう : が後ろにいる
+- exit(0)を最後に書いたほうがCE出ずに済む
 
 ## 来週やること
 
