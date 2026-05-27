@@ -31,8 +31,8 @@
 
 ## Python独自の省略方法
 result = []  
-for i in range(1,11):  
-    result.append(i**2)  
+ for i in range(1,11):  
+      result.append(i**2)  
 result = [x**2 for x in range(1,11)] -> 配列[代表値 forループ]の書き方
 
 ## 来週やること
