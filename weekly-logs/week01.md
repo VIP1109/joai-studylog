@@ -20,4 +20,4 @@
 
 
 ## 参考リンク
-- [Python入門 AtCoder Programming Guide for beginners (APG4bPython)]https://atcoder.jp/contests/APG4bPython/tasks/APG4bPython_f
+- [Python入門 AtCoder Programming Guide for beginners (APG4bPython)] https://atcoder.jp/contests/APG4bPython/tasks/APG4bPython_f
