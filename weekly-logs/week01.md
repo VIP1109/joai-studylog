@@ -38,6 +38,17 @@
 - filter(関数,関数の引数となる配列)を取ることで条件を満たさないやつを自動的に消す
 - reduce(関数,関数の引数となる配列)で再帰的に前の処理結果を用いることで楽に書くことができる
 - exit(0)を最後に書いたほうがCE出ずに済む
+### ABCを解いてての気づき
+- string -> str
+- !ok -> not ok
+- a && b -> a and b
+- a || b -> a or b
+- 空の配列 -> 配列 = []
+- pair,tuple -> (要素1,要素2,要素3,...)
+- 配列のソート -> 配列.sort()
+- 配列の逆順 -> 配列.reverse()
+- 浮動小数点誤差に注意する
+- 縦に入力する場合は[配列の型 ex) str = '']*要素数
 
 ## Python独自の省略方法
 ### 配列[代表値 forループ]の書き方
@@ -51,4 +62,5 @@ result = [x^2 for x in range(1,11)]
 
 ## 参考リンク
 - [Python入門 AtCoder Programming Guide for beginners (APG4bPython)] https://atcoder.jp/contests/APG4bPython/tasks/APG4bPython_f
+- [Pythonの標準入力input()の個人的まとめ] https://qiita.com/naoya_ok/items/f33a6ab2ff77154a7121
 - [Pythonの関数型プログラミング: map, filter, reduce, lambdaの効果的な使用法] https://qiita.com/Tadataka_Takahashi/items/c5ba5739e7c6e97e8725
