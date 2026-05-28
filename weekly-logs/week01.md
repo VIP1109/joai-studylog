@@ -1,7 +1,7 @@
 # Week 01 — Python基礎
 
 ## やったこと
-- Atcoder 212~216のA問題（5問分解いた）
+- Atcoder 212~216のA,B問題（10問分解いた）
 
 ## 詰まったこと・解決方法
 - a,b = map(int,input().split())のようにやるとatcoderの入力を取ることができる
