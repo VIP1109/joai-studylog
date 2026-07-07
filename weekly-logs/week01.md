@@ -112,5 +112,6 @@ result = [x^2 for x in range(1,11)]
 - [Python入門 AtCoder Programming Guide for beginners (APG4bPython)] https://atcoder.jp/contests/APG4bPython/tasks/APG4bPython_f
 - [Pythonの標準入力input()の個人的まとめ] https://qiita.com/naoya_ok/items/f33a6ab2ff77154a7121
 - [Pythonの関数型プログラミング: map, filter, reduce, lambdaの効果的な使用法] https://qiita.com/Tadataka_Takahashi/items/c5ba5739e7c6e97e8725
+- [第14回「Matplotlibの使い方」] https://www.pythonic-exam.com/archives/8956
 - [Matplotlibで画像を表示するimshowの初歩] https://qiita.com/hirowatari-s/items/e51cf26d093fbefa5598
 - [Choosing Colormaps in Matplotlib] https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
