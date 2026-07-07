@@ -59,6 +59,7 @@
 - np.sort(行列,軸,ソートの種類,ソートする領域) -> ‘quicksort’‘mergesort’‘heapsort’の3つから選ぶ。ソート結果を返す
 - np.argsort(行列,軸,ソートの種類,ソートする領域) -> ‘quicksort’‘mergesort’‘heapsort’の3つから選ぶ。ソート結果の配列のidxを返す
 - np.where(条件,[x,y]) -> np.where(配列が満たす条件)で条件を満たすidx。配列[np.where(配列が満たす条件)で条件を満たす要素が返される。np.where(条件,[x,y])で[x,y]で構成された新たな配列を作る。
+- np.meshgrid(1次元配列,初期値,sparce,copy) -> 1次元配列から2次元のグリッドを製作する。sparceは特定の方向しか持たない行列を返すか、すべて埋まっている密な行列を返すかの違い。copyはメモリのコピーを作るかどうか。
 
 - csvファイルを読むときはpandasのread_csv(ディレクトリ)(r'C:\PythonAI\dataset\...)とかく
 - df.head() -> データの先頭を表示する
@@ -71,7 +72,20 @@
 - df["Age"].fillna(df["Age"].median()) -> .fillna(欠損値に対しての処理)。df["データ名"].meadian()はあるデータ列の中央値
 - df["新しい配列"]=今の配列を用いた処理 -> 新しい配列を自動的に追加することができる
 - df.drop(columns=["Cabin", "Ticket"]) -> df.drop(データ名)で消すデータ列を指定できる。columns=[データ名,データ名...]みたいにすることで複数の配列をまとめて保存することができる
-- データの処理をした後保存するためにdf=をすることを忘れない 
+- データの処理をした後保存するためにdf=をすることを忘れない
+- matplotlib.pyplot as plt -> グラフの描写をすることができる
+- plt.xlable("名前"),plt.ylable("名前") -> グラフのx,y軸の名前を追加することがきる
+- plt.title("名前") -> グラフの名前を決めることができる
+- plt.plot(データ,データ) -> 折れ線グラフ
+- plt.scatter(データ,データ) -> 散布図
+- plt.bar(カテゴリー,データ) -> 棒グラフ
+- plt.hist(データ,区切り数) -> ヒストグラム
+- plt.boxplot(データ) -> 箱ひげ図
+- plt.pie(データ数,カテゴリー,%表示) -> 円グラフ
+- plt.contour(x座標用のデータ,y座標用のデータ,各座標の高さ) -> 等高線図
+- plt.imshow(データ,cmap,etc) -> ヒートマップ。カラーマップは以下のURL参照
+- plt.colorbar() -> ヒートマップで使った色を表示する
+- plt.show() -> グラフの表示
 ### ABCを解いてての気づき
 - string -> str
 - !ok -> not ok
@@ -92,9 +106,11 @@ for i in range(1,11):<br>
 result = [x^2 for x in range(1,11)]
 
 ## 来週やること
-
+- 2週目の内容を始める
 
 ## 参考リンク
 - [Python入門 AtCoder Programming Guide for beginners (APG4bPython)] https://atcoder.jp/contests/APG4bPython/tasks/APG4bPython_f
 - [Pythonの標準入力input()の個人的まとめ] https://qiita.com/naoya_ok/items/f33a6ab2ff77154a7121
 - [Pythonの関数型プログラミング: map, filter, reduce, lambdaの効果的な使用法] https://qiita.com/Tadataka_Takahashi/items/c5ba5739e7c6e97e8725
+- [Matplotlibで画像を表示するimshowの初歩] https://qiita.com/hirowatari-s/items/e51cf26d093fbefa5598
+- [Choosing Colormaps in Matplotlib] https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
